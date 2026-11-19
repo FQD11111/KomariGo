@@ -1,0 +1,30 @@
+# Gradle / 构建产物
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+
+# Xcode
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+!*.xcodeproj/project.pbxproj
+xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+
+# 签名材料（严禁提交）
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+*.certSigningRequest
+
+# 本地产物
+*.apk
+*.aab
