@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=390,initial-scale=1">
+<style>
+:root{--bg1:#0A0E17;--bg2:#0D1522;--card:#141A26;--inner:#1A2230;--border:#20304A;--track:#243247;
+--text:#E6EDF3;--muted:#8B96A8;--dim:#5F6B7D;--cpu:#2BB3A8;--mem:#46B96B;--disk:#D29922;--net:#8B7CF6;
+--ok:#3FB950;--warn:#D29922;--bad:#F85149;--accent:#58A6FF;}
+*{box-sizing:border-box;-webkit-font-smoothing:antialiased}
+body{margin:0;color:var(--text);font-family:-apple-system,"SF Pro Text",Arial,sans-serif;
+background:linear-gradient(180deg,var(--bg1),var(--bg2));}
+.screen{width:390px;padding:0 16px 20px}
+.label{font:600 9px ui-monospace,Menlo,monospace;letter-spacing:.5px;color:var(--muted)}
+.nav{display:flex;align-items:center;padding:10px 0 8px;height:44px}
+.icon{width:24px;height:24px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px}
+.title{position:absolute;left:0;right:0;text-align:center;font-size:17px;font-weight:700;pointer-events:none}
+.navwrap{position:relative}
+.strip{display:flex;align-items:center;gap:8px;padding:8px 1px;border-top:1px solid rgba(88,166,255,.10);
+border-bottom:1px solid rgba(88,166,255,.10)}
+.status{display:flex;align-items:center;gap:4px}
+.dot{width:5px;height:5px;border-radius:50%;background:var(--ok)}
+.down{font:600 12px ui-monospace,Menlo,monospace;color:var(--text)}
+.up{font:400 12px ui-monospace,Menlo,monospace;color:var(--muted)}
+.sp{flex:1}
+.todayv{font:600 10.5px ui-monospace,Menlo,monospace}
+.searchrow{display:flex;align-items:center;gap:8px;height:44px}
+.searchbox{flex:1;display:flex;align-items:center;gap:6px;background:var(--inner);border-radius:9px;padding:7px 10px}
+.searchbox .ph{color:var(--dim);font-size:13px}
+.cancel{font-size:13px;color:var(--accent)}
+.caption{font:600 9px ui-monospace,Menlo,monospace;color:#5F6B7D;margin:18px 0 6px;letter-spacing:.8px}
+</style></head><body><div class="screen">
+
+<div class="caption">DEFAULT</div>
+<div class="navwrap">
+  <div class="title">Komari</div>
+  <div class="nav">
+    <div class="icon">⚙</div>
+    <div style="flex:1"></div>
+    <div class="icon" style="color:#8B96A8">⌕</div>
+  </div>
+</div>
+<div class="strip">
+  <div class="status"><span class="dot"></span><span class="label" style="color:#8B96A8">3/3</span></div>
+  <span class="down">↓398 KB/s</span>
+  <span class="up">↑432 KB/s</span>
+  <span class="sp"></span>
+  <span class="label">TODAY</span><span class="todayv">2.4 GB</span>
+</div>
+
+<div class="caption">SEARCH ACTIVE</div>
+<div class="navwrap">
+  <div class="nav searchrow">
+    <div class="icon">⌕</div>
+    <div class="searchbox"><span style="color:#5F6B7D;font-size:13px">搜索名称 / 系统 / 地区</span></div>
+    <div class="cancel">取消</div>
+  </div>
+</div>
+
+</div></body></html>
