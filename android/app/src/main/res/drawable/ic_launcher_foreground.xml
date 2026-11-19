@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 外层信号弧：以针尖为心的大雨篷，半径 19 -->
+    <path
+        android:strokeColor="#FFD86B"
+        android:strokeAlpha="0.45"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M36.8,40 A19,19 0 0 1 71.2,40" />
+
+    <!-- 内层信号弧：半径 12 -->
+    <path
+        android:strokeColor="#FFD86B"
+        android:strokeAlpha="0.9"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M43.61,42 A12,12 0 0 1 64.39,42" />
+
+    <!-- 针体：尖端朝上 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50.5,68 L50.5,54 L54,44 L57.5,54 L57.5,68 Z" />
+
+    <!-- 针体：尾部圆头 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,70 a8.5,8.5 0 1,0 0.01,0 Z" />
+
+    <!-- 科技网格点 -->
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.22"
+        android:pathData="M29,40 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.22"
+        android:pathData="M29,54 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.22"
+        android:pathData="M29,68 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.22"
+        android:pathData="M79,40 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.22"
+        android:pathData="M79,54 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.22"
+        android:pathData="M79,68 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+</vector>
