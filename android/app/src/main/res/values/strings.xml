@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Komari</string>
+    <string name="widget_desc">显示在线节点数、实时速率与各节点状态</string>
+</resources>
